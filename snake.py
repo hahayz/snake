@@ -125,6 +125,7 @@ class SnakeGame:
         self.canvas.focus_set()
 
         while True:
+            #isn't over
             if self.isdead():
                 self.gameover()
                 break
